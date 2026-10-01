@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/logo.png">
+    <title>Sable.</title>
+</head>
+<body>
+
+    <header class="header">
+        <div class="logo">Sable.</div>
+        <div class="links">
+            <a href="#credit">CREDIT</a>
+            <a href="#debit">DEBIT</a>
+            <a href="#app">APP</a>
+            <a href="#learn">LEARN</a>
+        </div>
+        <button class="header-btn" id="headerBtn">Sign In</button>
+    </header>
+
+    <section class="hero">
+        <div class="card-top"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">The fastest, most premium path to <br><span>financial freedom</span></h1>
+            <button class="explore-btn" id="exploreBtn">EXPLORE</button>
+        </div>
+        <div class="card-bottom"></div>
+    </section>
+
+    <section class="interactive-section" id="interactiveBox">
+        <div class="card-box">
+            <h2 id="title">Salom, Mehmon!</h2>
+            <div class="input-group">
+                <input type="text" id="nameInput" placeholder="Ismingizni kiriting...">
+                <button id="btn">Tasdiqlash</button>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="features-section" id="features">
+        <div class="section-badge">400,000 ACCOUNTS & COUNTING</div>
+        <h2 class="section-title">
+            No hidden fees. No credit checks.<br>
+            No more barriers to building credit.
+        </h2>
+
+        <div class="features-grid">
+            <div class="features-column left-col">
+                <div class="feature-item" id="feature1">
+                    <div class="icon-box">&#128179;</div>
+                    <h3>Get a secured credit card and bank account in 5 minutes.</h3>
+                    <p>No credit history, credit check, or minimum deposit required.</p>
+                </div>
+
+                <div class="feature-item" id="feature2">
+                    <div class="icon-box">&#127942;</div>
+                    <h3>The only premium card for building credit.</h3>
+                    <p>2% unlimited cash back on your favorite brands, 2X first year cash back match, premium benefits and more!</p>
+                </div>
+            </div>
+
+            <div class="phone-wrapper">
+                <div class="phone-mockup">
+                    <div class="phone-screen">
+                        <div class="phone-header">
+                            <span>9:41</span>
+                            <span class="brand-text">Sable.</span>
+                        </div>
+                        <div class="card-preview primary-card">
+                            <small>CREDIT CARD</small>
+                            <h4>$1860.00</h4>
+                            <p>$3,140.00 available</p>
+                        </div>
+                        <div class="card-preview secondary-card">
+                            <small>BANK ACCOUNT</small>
+                            <h4>$9,510</h4>
+                        </div>
+                        <div class="phone-actions">
+                            <button class="action-btn" id="addMoneyBtn">+</button>
+                            <button class="action-btn" id="sendMoneyBtn">&rarr;</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="features-column right-col">
+                <div class="feature-item" id="feature3">
+                    <div class="icon-box">&#127919;</div>
+                    <h3>Build your U.S. credit</h3>
+                    <p>We believe in forming positive habits. Build your U.S. credit with Sable.</p>
+                </div>
+
+                <div class="feature-item" id="feature4">
+                    <div class="icon-box">&#127758;</div>
+                    <h3>Bank like a global citizen with Sable.</h3>
+                    <p>Start building credit before you even enter the country. Non-U.S. citizens can apply with their passport and visa.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="brands-divider"></div>
+
+        <div class="brands-container">
+            <span class="brand-logo">yahoo! finance</span>
+            <span class="brand-logo">Bloomberg</span>
+            <span class="brand-logo">BUSINESS INSIDER</span>
+            <span class="brand-logo">Forbes</span>
+        </div>
+    </section>
+
+    <div class="info-modal" id="infoModal">
+        <div class="info-modal-card">
+            <h3 id="modalTitle">Ma'lumot</h3>
+            <p id="modalDescription">Tavsif bu yerda ko'rinadi.</p>
+            <button class="modal-close" id="modalClose">Yopish</button>
+        </div>
+    </div>
+
+    <section class="debit-promo-section">
+        <div class="debit-card-container">
+            <div class="sable-card white-card">
+                <div class="card-chip"></div>
+                <div class="card-brand">Sable.</div>
+                <div class="card-mastercard">
+                    <span class="mc-red"></span>
+                    <span class="mc-orange"></span>
+                </div>
+            </div>
+        </div>
+        <div class="debit-text-container">
+            <h2>Get a bank account & <br>debit card <span>in five minutes.</span></h2>
+        </div>
+    </section>
+
+    <section class="benefits-section">
+        <div class="benefits-left">
+            <div class="benefit-item active" id="benefit1">
+                <h3>Earn 2% cash back on favorite brands</h3>
+                <p>Earn 2% cash back on favorite brands, 1% cashback on all purchases, and a 2X cashback match in your first year! Get premium benefits and much more.</p>
+            </div>
+            <div class="benefit-item" id="benefit2">
+                <h3>Moving to the U.S.? No SSN required</h3>
+                <p>Start building credit before you even enter the country. Sign up with your international address, passport & visa instead.</p>
+            </div>
+            <div class="benefit-item" id="benefit3">
+                <h3>Get help from a real person</h3>
+                <p>When you've got questions about your finances, get multilingual customer support anytime you need from direct in-app chat, email, phone, and our site FAQs.</p>
+            </div>
+        </div>
+
+        <div class="benefits-right">
+            <div class="brands-grid">
+                <div class="brand-card"><span class="b-icon wholefoods">Whole Foods</span></div>
+                <div class="brand-card"><span class="b-icon netflix">N</span></div>
+                <div class="brand-card"><span class="b-icon spotify">&#9834;</span></div>
+                <div class="brand-card"><span class="b-icon uber-eats">Uber <span>Eats</span></span></div>
+                <div class="brand-card"><span class="b-icon amazon">amazon</span></div>
+                <div class="brand-card"><span class="b-icon uber">Uber</span></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="compare-section">
+        <div class="marquee-title">
+            <span>Compare Sable &bull; Compare Sable &bull; Compare Sable &bull; Compare Sable &bull; Compare Sable &bull; Compare Sable &bull; Compare Sable &bull; Compare Sable &bull;Compare Sable &bull; Compare Sable &bull; Compare Sable &bull; Compare Sable &bull;Compare Sable &bull; Compare Sable &bull; Compare Sable &bull; Compare Sable &bull;Compare Sable &bull; Compare Sable &bull; Compare Sable &bull; Compare Sable &bull;Compare Sable &bull; Compare Sable &bull; Compare Sable &bull; Compare Sable &bull;</span>
+        </div>
+
+        <div class="compare-container">
+            <table class="compare-table">
+                <thead>
+                    <tr>
+                        <th class="feature-col"></th>
+                        <th class="card-col">
+                            <div class="card-thumb credit-debit-thumb">
+                                <span class="thumb-brand">Sable.</span>
+                                <div class="thumb-mc">
+                                    <span class="mc-r"></span>
+                                    <span class="mc-o"></span>
+                                </div>
+                            </div>
+                            <div class="card-title-text">
+                                Sable Secured<br>Credit & Debit Card
+                            </div>
+                        </th>
+                        <th class="card-col">
+                            <div class="card-thumb debit-thumb">
+                                <span class="thumb-brand">Sable.</span>
+                                <div class="thumb-mc">
+                                    <span class="mc-r"></span>
+                                    <span class="mc-o"></span>
+                                </div>
+                            </div>
+                            <div class="card-title-text">
+                                Sable Debit<br>Card
+                            </div>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="feature-name">No monthly fees or minimum balance</td>
+                        <td class="status-cell"><span class="check-icon">&#10003;</span></td>
+                        <td class="status-cell"><span class="check-icon">&#10003;</span></td>
+                    </tr>
+                    <tr>
+                        <td class="feature-name">Deposits FDIC insured up to $250,000</td>
+                        <td class="status-cell"><span class="check-icon">&#10003;</span></td>
+                        <td class="status-cell"><span class="check-icon">&#10003;</span></td>
+                    </tr>
+                    <tr>
+                        <td class="feature-name">Rewards, cash back & card perks</td>
+                        <td class="status-cell"><span class="check-icon">&#10003;</span></td>
+                        <td class="status-cell"><span class="check-icon">&#10003;</span></td>
+                    </tr>
+                    <tr>
+                        <td class="feature-name">Send checks & transfer money for free</td>
+                        <td class="status-cell"><span class="check-icon">&#10003;</span></td>
+                        <td class="status-cell"><span class="check-icon">&#10003;</span></td>
+                    </tr>
+                    <tr>
+                        <td class="feature-name">Build credit history from Day 1</td>
+                        <td class="status-cell"><span class="check-icon">&#10003;</span></td>
+                        <td class="status-cell"><span class="lock-icon">&#128274;</span></td>
+                    </tr>
+                    <tr>
+                        <td class="feature-name">No credit check required for sign up</td>
+                        <td class="status-cell"><span class="check-icon">&#10003;</span></td>
+                        <td class="status-cell"><span class="lock-icon">&#128274;</span></td>
+                    </tr>
+                    <tr>
+                        <td class="feature-name">Cost per year</td>
+                        <td class="price-cell">
+                            <span class="price">$0</span> <span class="period">/year</span>
+                        </td>
+                        <td class="price-cell">
+                            <span class="price">$0</span> <span class="period">/year</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td class="action-cell">
+                            <button class="cta-pill-btn">GET CREDIT & DEBIT</button>
+                        </td>
+                        <td class="action-cell">
+                            <button class="cta-pill-btn">GET DEBIT</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="rating-display">
+            <span class="rating-score">4.8</span>
+        </div>
+    </section>
+
+    <section class="testimonials-section">
+        <div class="testimonials-container">
+            <div class="testimonial-card">
+                <div class="quote-icon">&#8221;</div>
+                <p class="quote-text">
+                    Fantastic customer service. I shifted from a traditional bank to Sable [and] Sable's customer service helped me answer all the questions that I needed to switch.
+                </p>
+                <div class="quote-author">&mdash; K Okwaka</div>
+            </div>
+
+            <div class="testimonial-card">
+                <div class="quote-icon">&#8221;</div>
+                <p class="quote-text">
+                    The best bank for immigrants in the US. Thank you Sable! I have nothing but good things to say about you!
+                </p>
+                <div class="quote-author">&mdash; E Barbo</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="app-banner-section">
+        <div class="app-banner">
+            <div class="banner-overlay"></div>
+            <div class="banner-content">
+                <h2>Join over <span>400,000</span> accounts</h2>
+                <p>Download Sable: effortless, borderless banking for a more connected world.</p>
+                <div class="store-buttons">
+                    <a href="#" class="store-btn">
+                        <span class="store-icon">&#9654;</span>
+                        <div class="store-text">
+                            <small>GET IT ON</small>
+                            <strong>Google Play</strong>
+                        </div>
+                    </a>
+                    <a href="#" class="store-btn">
+                        <span class="store-icon">&#63743;</span>
+                        <div class="store-text">
+                            <small>Download on the</small>
+                            <strong>App Store</strong>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="site-footer">
+        <div class="footer-top">
+            <div class="footer-columns">
+                <div class="footer-col">
+                    <h4>Sable Credit</h4>
+                    <ul>
+                        <li><a href="#">Sable ONE Credit</a></li>
+                        <li><a href="#">Credit Score <span class="badge-soon">Coming Soon</span></a></li>
+                    </ul>
+
+                    <h4>Sable Debit</h4>
+                    <h4>App</h4>
+                    
+                    <h4>Learn</h4>
+                    <ul>
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">About Sable</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Contact</h4>
+                    <p class="contact-info">Email: help@sablecard.com</p>
+                    <p class="contact-info">Location: New York, NY</p>
+                </div>
+            </div>
+
+            <div class="footer-brand">
+                <h2 class="brand-logo-large">Sable.</h2>
+            </div>
+        </div>
+
+        <div class="footer-middle">
+            <div class="social-links">
+                <a href="#" aria-label="Instagram">&#128247;</a>
+                <a href="#" aria-label="Twitter">&#128038;</a>
+                <a href="#" aria-label="Facebook">&#10230;</a>
+                <a href="#" aria-label="YouTube">&#9654;</a>
+                <a href="#" aria-label="TikTok">&#9835;</a>
+            </div>
+            <div class="copyright">
+                &copy; Sable Money Inc. all rights reserved.
+            </div>
+        </div>
+
+        <div class="footer-legal">
+            <p class="legal-links"><a href="#">Privacy Policy</a> | <a href="#">Terms and Conditions</a></p>
+            <p class="disclaimer-text">
+                *Banking services provided by Coastal Community Bank, Member FDIC, pursuant to license by Mastercard International Inc.<br>
+                Sable accounts are FDIC-insured up to $250,000 per depositor through Coastal Community Bank, Member FDIC.<br>
+                **If you are not a U.S. citizen, you can apply with your passport and U.S. Visa. Please note, you must submit an SSN once you receive one. If you are a U.S. citizen, SSN is required to open a bank account.<br>
+                ***Double cashback terms (12/20/20).
+            </p>
+        </div>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
